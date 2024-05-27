@@ -22,7 +22,7 @@ header {
     align-items: center;
     width: 100%;
     margin: auto;
-    background: linear-gradient(in oklab, gray, #f4b652);
+    background: gray;
 }
 
 .navbar-brand {
