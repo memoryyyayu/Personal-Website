@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Profil Pribadi</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="beranda" id="beranda">
+        <header>
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="img/logo1.png" alt="" width="70px">memoryayu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#beranda">Home</a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tentang">About</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact">Contact</a>
+                                    </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <section class="profil">
+                <div class="profil-content">
+                    <img src="img/profil.jpg" alt="Foto Profil" class="foto-profil">
+                    <h1>Natalin Memory Ayu</h1>
+                    <p>Mahasiswa | 222611008 | 4B</p>
+                </div>
+                <div class="wave"></div>
+            </section>
+
+            <div class="about">
+
+                <section id="about">
+                    <h2>Selamat Datang <br> Di Website Memory Ayu</h2>
+                </section>
+
+                <section id="tentang">
+                    <h3>Tentang Saya</h3>
+                    <div class="tentang-container">
+                        <div class="tentang-saya">
+                            <h4>Biodata</h4>
+                            <p>
+                                <ul>
+                                    <li>Nama : Natalin Memory Ayu</li>
+                                    <li>NIM : 222611008</li>
+                                    <li>Program Studi : Teknik Informatika</li>
+                                    <li>Fakultas : Teknik</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="tentang-saya">
+                            <h4>Media Sosial</h4>
+                            <p>
+                                <ul>
+                                    <li>Facebook : Natalin Memoryy Ayu</li>
+                                    <li>Instagram : memory_ayuu</li>
+                                    <li>Youtube : Natalin Memory Ayu</li>
+                                    <li>Email : natalinayu897@gmail.com</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="tentang-saya">
+                            <h4>Website</h4>
+                            <p>Website ini dibuat untuk memenuhi tugas dari sala satu mata kuliah.
+                                <ul>
+                                    <li>Mata Kuliah : Cloud Computing</li>
+                                    <li>Kelas : 4B</li>
+                                    <li>Dosen Pengampu : Anthony Adi Patasik, S.Kom</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h3>Hubungi Saya</h3>
+                <form>
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit" class="">Kirim</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p>&copy;2024 memoryayu.</p>
+        </footer>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
